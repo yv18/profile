@@ -407,6 +407,7 @@ li {
 
     header {
         height: 30vh;
+        margin-bottom:20px;
     }
 
     .profile-view {
@@ -439,7 +440,7 @@ li {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 0px;
     }
 
     .projects {
