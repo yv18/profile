@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+}
+
+body {
+    /* background-color: #0B2447; */
+    background: rgb(193, 0, 255);
+    background: linear-gradient(90deg, rgba(193, 0, 255, 1) 0%, rgba(29, 47, 201, 1) 69%, rgba(255, 0, 253, 1) 100%);
+}
+
+header {
+    height: 40vh;
+    background: rgb(193, 0, 255);
+    background: linear-gradient(90deg, rgba(193, 0, 255, 1) 0%, rgba(29, 47, 201, 1) 69%, rgba(255, 0, 253, 1) 100%);
+}
+
+.profile-view {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.profile {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.profile-image {
+    background: url("/images/yash.jpg");
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border: 5px solid white;
+}
+
+.profile-name {
+    padding-left: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.instagram-link {
+    padding-left: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#ig {
+    border-radius: 4px;
+    color: white;
+    background-image: linear-gradient(to right, #f857a6 0%, #ff5858 51%, #f857a6 100%);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#ig:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#linkdn {
+    background: rgb(124, 136, 214);
+    background: linear-gradient(90deg, rgba(124, 136, 214, 1) 0%, rgba(0, 47, 200, 1) 51%, rgba(107, 87, 167, 1) 100%);
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#linkdn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#git {
+    background: rgb(115, 239, 197);
+    background: linear-gradient(90deg, rgba(115, 239, 197, 1) 0%, rgba(24, 222, 87, 1) 51%, rgba(143, 167, 87, 1) 100%);
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#git:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+h6 {
+    padding-top: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 5px;
+    gap: 30px;
+    height: 360px;
+    background-color: #282A3A;
+}
+
+
+.ecommerce-Clone {
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 280px;
+    background-color: white;
+}
+
+.ecommerce-Clone2 {
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 280px;
+    background-color: white;
+}
+
+.ecommerce-Clone3 {
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 280px;
+    background-color: white;
+}
+
+.project1-img {
+    background: url("/Images/Project1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    height: 160px;
+    width: 280px;
+}
+
+.project2-img {
+    background: url("/Images/Task1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    height: 160px;
+    width: 280px;
+}
+
+.description {
+    display: block;
+    justify-content: left;
+    align-items: start;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+#btn {
+    border: none;
+    background-color: #282A3A;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background: rgb(165, 165, 165);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    color: #fff;
+}
+
+
+#btn1 {
+    border: none;
+    background-color: #282A3A;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#btn1:hover {
+    cursor: pointer;
+    background: rgb(165, 165, 165);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    color: #fff;
+}
+
+#btn2 {
+    border: none;
+    background-color: #282A3A;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#btn2:hover {
+    cursor: pointer;
+    background: rgb(165, 165, 165);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    color: #fff;
+}
+
+
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#heading {
+    color: white;
+}
+strong {
+   color:darkgray;
+}
+
+.topics {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.topic {
+    background-color: #19376D;
+    width: 280px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;  /* Arrange items in a row */
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+li {
+    color: darkgray;
+    list-style-type: none;
+    border: 1px solid;
+    padding: 3px;
+    text-align: center;
+    width: 80px;
+    border-radius: 4px;
+    background-color: rgb(43, 40, 40);
+}
+
+#node {
+    border: 1px solid rgb(7, 198, 7);
+}
+
+#js {
+    border: 1px solid rgb(255, 255, 5);
+}
+#css {
+    border: 1px solid rgb(0, 30, 255);
+}
+
+#jquery {
+    border: 1px solid rgb(7, 198, 7);
+}
+
+#mongodb {
+    border: 1px solid rgb(7, 198, 7);
+}
+
+#mysql {
+    border: 1px solid rgb(0, 30, 255);
+}
+
+#sql {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+
+.heading {
+    padding-left: 60px;
+    margin-top: 10px;
+    color: white;
+}
+
+.topic-sections {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    width: 90%;
+    background-color: #282A3A;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.topic1 {
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: #282A3A;
+}
+
+.list {
+    display: flex;
+}
+
+.container3 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #282A3A;
+    margin-top: 50px;
+}
+
+.more-projects {
+    background-color: #282A3A;
+    color: white;
+    border-radius: 4px;
+}
+
+.games {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.G1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.G1 a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+
+/* For Mobile */
+@media (max-width:760px) 
+{
+
+    header {
+        height: 30vh;
+    }
+
+    .profile-view {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
+    .profile {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
+    h3 {
+        padding: 10px;
+    }
+
+    .instagram-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+        margin-top: 20px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0%;
+    }
+
+    .projects {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+        background-color: transparent;
+        height: auto;
+        width: auto;
+    }
+
+    
+
+    .items {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
+    .topic-sections {
+        background-color: unset;
+    }
+
+    .topic1 {
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .container3 {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .more-projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .games {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        gap:20px
+    }
+
+}
+
+#tag {
+    color: black;
+}
