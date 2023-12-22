@@ -260,6 +260,25 @@ h6 {
     color: #fff;
 }
 
+#btn3 {
+    border: none;
+    background-color: #282A3A;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#btn3:hover {
+    cursor: pointer;
+    background: rgb(165, 165, 165);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    color: #fff;
+}
+
 
 
 .skills {
