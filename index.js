@@ -27,5 +27,5 @@ btn5.addEventListener("click", function() {
 });
 
 btn6.addEventListener("click", function() {
-    window.location.href = "https://yv18.github.io/TaskManager/";
+    window.location.href = "https://yv18.github.io/poptospizza/";
 });
