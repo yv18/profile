@@ -431,6 +431,126 @@ li {
     border-bottom: 2px solid white;
 }
 
+.ecommerce-Clone4 {
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 280px;
+    background-color: white;
+}
+.ecommerce-Clone5 {
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 280px;
+    background-color: white;
+}
+.ecommerce-Clone6 {
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 280px;
+    background-color: white;
+}
+
+.project4-img {
+    background: url("drivetest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    height: 160px;
+    width: 280px;
+}
+
+.project5-img {
+    background: url("responsive.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    height: 160px;
+    width: 280px;
+}
+
+
+.project6-img {
+    background: url("Project1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    height: 160px;
+    width: 280px;
+}
+
+
+
+
+#btn4 {
+    border: none;
+    background-color: #282A3A;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#btn4:hover {
+    cursor: pointer;
+    background: rgb(165, 165, 165);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    color: #fff;
+}
+
+
+
+
+
+#btn5 {
+    border: none;
+    background-color: #282A3A;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#btn5:hover {
+    cursor: pointer;
+    background: rgb(165, 165, 165);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    color: #fff;
+}
+
+
+#btn6 {
+    border: none;
+    background-color: #282A3A;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#btn6:hover {
+    cursor: pointer;
+    background: rgb(165, 165, 165);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    color: #fff;
+}
+
+
+
 
 
 /* For Mobile */
