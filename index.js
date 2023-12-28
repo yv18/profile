@@ -18,7 +18,7 @@ const btn6 = document.getElementById("btn6");
 const btn4 = document.getElementById("btn4");
 const btn5 = document.getElementById("btn5");
 btn4.addEventListener("click", function() {
-    window.location.href = "https://yv18.github.io/TaskManager/";
+    window.location.href = "https://yv18.github.io/DriveTest/";
 });
 
 btn5.addEventListener("click", function() {
